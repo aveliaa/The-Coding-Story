@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">The Coding Story</string>
+    <string name="name">name</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="register">register</string>
+    <string name="login">login</string>
+    <string name="new_user">new user? register here</string>
+    <string name="email">email</string>
+    <string name="menu_logout">menu_logout</string>
+    <string name="timestamp">timestamp</string>
+    <string name="dummy_desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+    <string name="add_story">add story</string>
+    <string name="description">Description</string>
+    <string name="image">Image</string>
+    <string name="upload">upload</string>
+    <string name="tambah_foto">Tambah Foto</string>
+    <string name="photo">photo</string>
+    <string name="menu_map">menu_map</string>
+    <string name="title_activity_story_maps">StoryMapsActivity</string>
+</resources>

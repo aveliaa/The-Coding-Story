@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.story.StoryDetailActivity">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/det_photo"
+        android:layout_width="302dp"
+        android:layout_height="400dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars"
+        android:transitionName="@string/photo"/>
+
+    <TextView
+        android:id="@+id/det_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/username"
+        android:transitionName="@string/username"
+        app:layout_constraintStart_toStartOf="@+id/det_photo"
+        app:layout_constraintTop_toBottomOf="@+id/det_photo" />
+
+    <TextView
+        android:id="@+id/det_timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/timestamp"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@+id/det_photo"
+        app:layout_constraintTop_toBottomOf="@+id/det_username" />
+
+    <TextView
+        android:id="@+id/det_description"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/dummy_desc"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/det_photo"
+        app:layout_constraintStart_toStartOf="@+id/det_photo"
+        app:layout_constraintTop_toBottomOf="@+id/det_timestamp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
